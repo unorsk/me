@@ -1,0 +1,18 @@
+{
+  "name": "me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "npm run build --public-url https://unorsk.cc",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "parcel": "^1.12.3"
+  }
+}
