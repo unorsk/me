@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "npm run build --public-url https://unorsk.cc",
+    "build": "parcel build --no-minify index.html",
+    "predeploy": "npm run build --no-minify --public-url https://unorsk.cc",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
