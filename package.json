@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build --no-minify index.html",
-    "predeploy": "npm run build --no-minify --public-url https://unorsk.cc",
+    "predeploy": "npm run build --no-minify --public-url https://unorsk.cc && echo 'unorsk.cc' > ./dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
